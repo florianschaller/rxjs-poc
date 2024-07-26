@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-poc",
+  "version": "1.0.0",
+  "description": "POC for showing how to use Reactive Programming",
+  "scripts": {
+    "build": "tsc --build",
+    "serve": "ts-node ./src",
+    "start": "node ./dist",
+    "lint": "tsc --noEmit && eslint \"**/*.ts\" --quiet --fix"
+  },
+  "author": "Florian Schaller (stemys SA)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
